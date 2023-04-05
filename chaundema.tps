@@ -1,6 +1,7 @@
 //@version=5
 // Copyright (c) 2023 napolegend Apache 2.0
 indicator('Chandelier UND EMA Exit', shorttitle='A. Hit of price action', overlay=true)
+//0138c42c0d2b98db9556459a93dd09f297f4316b206c6add28432c9fdfe697a7
 
 length = input(title='ATR Period', defval=22)
 mult = input.float(title='ATR Multiplier', step=0.1, defval=3.0)
